@@ -1,0 +1,99 @@
+.choose {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    width: 272px;
+    height: 40px;
+}
+
+input:hover {
+    border-color: #007bff;
+}
+
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 75px;
+    height: 40px;
+}
+
+button[data-start] {
+    background-color: #007bff;
+    color: white;
+}
+
+button[data-start]:hover {
+    background-color: #0056b3;
+}
+
+button[data-start]:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 55px;
+    height: 72px;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Flatpickr custom styles */
+.flatpickr-calendar {
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.flatpickr-day.selected {
+    background-color: #007bff !important;
+    color: white !important;
+    border-radius: 50% !important;
+}
+
+.flatpickr-day:hover {
+    background-color: #0056b3 !important;
+    color: white !important;
+    border-radius: 50% !important;
+}
