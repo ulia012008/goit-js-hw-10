@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<link rel="stylesheet" href="./css/2-snackbar.css">
+
+<body>
+    <form class="form">
+        <label class="form-label">
+            Delay (ms)
+            <input type="number" name="delay" required class="form-input" />
+        </label>
+
+        <fieldset class="form-fieldset">
+            <legend>State</legend>
+            <label class="form-label">
+                <input class="form-input" type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+            </label>
+            <label class="form-label">
+                <input class="form-input" type="radio" name="state" value="rejected" required />
+                Rejected
+            </label>
+        </fieldset>
+
+        <button class="form-btn" type="submit">Create notification</button>
+
+    </form>
+    <script type="module" src="./js/2-snackbar.js"></script>
+</body>
+
+</html>;
