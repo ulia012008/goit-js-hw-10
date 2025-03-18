@@ -17,7 +17,8 @@
   "author": "Yuliia Jaworska <ulia012008@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "flatpickr": "^4.6.13",
+   
+  "flatpickr": "^4.6.13",
     "izitoast": "^1.4.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"

@@ -1,7 +1,7 @@
 // Описаний в документації
 import flatpickr from 'flatpickr';
 // Додатковий імпорт стилів
-import 'flatpickr/dist/flatpickr.min.css';
+import '/node_modules/flatpickr/dist/flatpickr.min.css';
 // Описаний у документації
 import iziToast from 'izitoast';
 // Додатковий імпорт стилів
